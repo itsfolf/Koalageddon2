@@ -60,7 +60,7 @@ sealed class KoalaTool(
         override fun writeDefaultConfig(path: Path) = appJson.encodeToStream(Config(), path.outputStream())
     }
 
-    object SmokeAPI : KoalaTool(name = "SmokeAPI", originalName = "steam_api", majorVersion = 2) {
+    object SmokeAPI : KoalaTool(name = "SmokerAPI", originalName = "steam_api", majorVersion = 2) {
         @Serializable
         enum class AppStatus : ILangString {
             @SerialName("original")
