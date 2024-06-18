@@ -84,6 +84,7 @@ sealed class KoalaTool(
             }
         }
 
+        
         @Serializable
         data class App(
             val dlcs: Map<String, String> = mapOf()
