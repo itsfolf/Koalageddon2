@@ -1,4 +1,4 @@
-= 🐨 Koalageddon 💥 v2
+= 🐨 Koalageddon 💥 v2 
 
 image::src/jvmMain/resources/images/icon.png[,256]
 
